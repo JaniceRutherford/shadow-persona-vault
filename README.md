@@ -42,10 +42,12 @@ This project implements an encrypted age gate system where:
 - **Network**: Ethereum Sepolia Testnet
 
 **Key Functions**:
-- `submitEncryptedAge()`: Submit encrypted age data
-- `verifyAge()`: Verify if age meets minimum requirements
-- `getEncryptedStats()`: Retrieve encrypted statistical data
-- `decryptStats()`: Decrypt statistical results (authorized users only)
+- `submitEncryptedAge()`: Submit encrypted age data with zero-knowledge proof
+- `verifyAge()`: Verify if age meets minimum requirements without decryption
+- `getEncryptedStats()`: Retrieve encrypted statistical data for privacy-preserving analytics
+- `decryptStats()`: Decrypt statistical results (contract owner only)
+- `hasUserSubmitted()`: Check if user has already submitted their age
+- `getMyEncryptedAge()`: Allow users to view their own encrypted age data
 
 ## 🔧 Setup & Installation
 
