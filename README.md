@@ -4,7 +4,7 @@ A confidential persona verification system built with FHEVM (Fully Homomorphic E
 
 ## 🚀 Live Demo
 
-**Vercel Deployment**: https://pro10-five.vercel.app/
+**Vercel Deployment**: https://shadow-persona-vault-mhvn.vercel.app/
 
 ## 📹 Demo Video
 
